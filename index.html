@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Dicle Buse Erol · Psikolog · Bodrum</title>
+<meta name="description" content="Dicle Buse Erol — Psikolog. Bodrum'da yüz yüze ve online terapi. Yetişkin bireysel terapi, çocuk & ergen terapisi, oyun terapisi, EMDR, BDT, aile danışmanlığı."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://dicleerol-psikolog.example",
+  "name": "Dicle Buse Erol · Psikolog",
+  "image": "https://dicleerol-psikolog.example/og.jpg",
+  "description": "Bodrum'da yüz yüze ve online psikoterapi. Yetişkin, çocuk ve ergen bireysel terapi, oyun terapisi, EMDR, BDT, aile danışmanlığı.",
+  "telephone": "+905444535937",
+  "email": "eroldiclebuse@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bodrum",
+    "addressRegion": "Muğla",
+    "addressCountry": "TR"
+  },
+  "areaServed": ["Bodrum","Türkiye","Online"],
+  "url": "https://dicleerol-psikolog.example"
+}
+</script>
+<style>
+:root {
+  --terracotta: #c97b5d;
+  --terracotta-deep: #a85a3e;
+  --cream: #f5ead8;
+  --paper: #fdf8ed;
+  --sand: #e8d8be;
+  --brown: #4a342a;
+  --brown-2: #2d2017;
+  --brown-soft: #6b4d3f;
+  --gold: #c9a06b;
+  --ink: #2d2017;
+  --ink-soft: rgba(45,32,23,.78);
+  --line: rgba(45,32,23,.14);
+  --pad: clamp(20px, 5vw, 64px);
+  --max: 1180px;
+  --f-display: "Fraunces", "Cormorant Garamond", Georgia, serif;
+  --f-body: "Inter", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--f-body); color: var(--ink); background: var(--paper); line-height: 1.72; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+section { padding: clamp(80px, 14vw, 160px) 0; }
+
+.nav { position: sticky; top: 0; z-index: 30; background: rgba(253,248,237,.94); backdrop-filter: blur(12px); padding: 18px 0; border-bottom: 1px solid var(--line); }
+.nav__inner { display: flex; align-items: center; justify-content: space-between; }
+.brand { font-family: var(--f-display); font-weight: 500; font-size: 1.4rem; color: var(--brown); text-decoration: none; line-height: 1; letter-spacing: -0.005em; }
+.brand small { display: block; font-family: var(--f-body); font-weight: 400; font-size: .62rem; letter-spacing: .32em; text-transform: uppercase; color: var(--terracotta); margin-top: 6px; }
+.nav__links { display: none; gap: 28px; font-size: .86rem; color: var(--ink-soft); }
+.nav__links a { text-decoration: none; transition: color .2s ease; }
+.nav__links a:hover { color: var(--terracotta); }
+.nav__cta { font-size: .78rem; padding: 11px 26px; background: var(--terracotta); color: var(--paper); text-decoration: none; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; border-radius: 999px; border: 1px solid var(--terracotta); transition: background .2s ease; }
+.nav__cta:hover { background: var(--terracotta-deep); border-color: var(--terracotta-deep); }
+@media (min-width: 900px) { .nav__links { display: flex; } }
+
+.hero { padding: clamp(70px, 12vw, 130px) 0 clamp(80px, 12vw, 140px); background:
+  radial-gradient(circle at 90% 20%, rgba(201,123,93,.14), transparent 55%),
+  radial-gradient(circle at 10% 90%, rgba(201,160,107,.12), transparent 55%),
+  linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
+  position: relative; overflow: hidden; }
+.hero__grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(40px, 6vw, 72px); align-items: center; }
+.hero__eyebrow { font-size: .72rem; letter-spacing: .32em; text-transform: uppercase; color: var(--terracotta); margin: 0 0 28px; font-weight: 500; }
+.hero h1 { font-family: var(--f-display); font-weight: 500; font-size: clamp(2.4rem, 6vw, 4.4rem); line-height: 1.04; margin: 0 0 22px; letter-spacing: -0.01em; color: var(--brown-2); }
+.hero h1 em { font-style: italic; color: var(--terracotta); font-weight: 400; }
+.hero__sub { font-size: 1.1rem; color: var(--ink-soft); margin: 28px 0 38px; max-width: 540px; }
+.cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 30px; text-decoration: none; font-size: .82rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; transition: background .25s ease, color .25s ease, border-color .25s ease; border-radius: 999px; border: 1px solid transparent; }
+.btn-primary { background: var(--terracotta); color: var(--paper); border-color: var(--terracotta); }
+.btn-primary:hover { background: var(--terracotta-deep); border-color: var(--terracotta-deep); }
+.btn-ghost { color: var(--brown); border-color: var(--brown); }
+.btn-ghost:hover { background: var(--brown); color: var(--paper); }
+.hero__portrait { position: relative; aspect-ratio: 4 / 5; max-width: 440px; margin: 0 auto; }
+.hero__portrait img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; display: block; box-shadow: 0 30px 60px -28px rgba(74,52,42,.4); }
+.hero__portrait::before { content: ''; position: absolute; top: -16px; right: -16px; width: 120px; height: 120px; border: 1px solid var(--terracotta); border-radius: 4px; z-index: -1; }
+.hero__portrait::after { content: ''; position: absolute; bottom: -16px; left: -16px; width: 100px; height: 100px; background: var(--sand); border-radius: 4px; z-index: -1; }
+.hero__meta { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.hero__meta dt { font-size: .66rem; letter-spacing: .26em; text-transform: uppercase; color: rgba(45,32,23,.5); margin-bottom: 6px; }
+.hero__meta dd { margin: 0; font-family: var(--f-display); font-style: italic; font-size: 1.25rem; color: var(--terracotta); font-weight: 500; }
+
+.section-head { max-width: 720px; margin: 0 auto 72px; text-align: center; }
+.section-head .eyebrow { font-size: .72rem; letter-spacing: .32em; text-transform: uppercase; color: var(--terracotta); margin: 0 0 18px; font-weight: 500; }
+.section-head h2 { font-family: var(--f-display); font-weight: 500; font-size: clamp(2rem, 4.5vw, 3.2rem); line-height: 1.08; margin: 0 0 18px; color: var(--brown-2); }
+.section-head h2 em { font-style: italic; color: var(--terracotta); font-weight: 400; }
+.section-head p { color: var(--ink-soft); max-width: 520px; margin: 0 auto; font-size: 1.04rem; }
+
+.services { background: var(--paper); }
+.services__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.service { padding: 44px 36px; background: var(--cream); border: 1px solid var(--line); position: relative; border-radius: 4px; transition: background .3s ease, transform .3s ease; }
+.service:hover { background: var(--sand); transform: translateY(-2px); }
+.service__num { font-family: var(--f-display); font-style: italic; font-weight: 500; font-size: 1.1rem; color: var(--terracotta); margin-bottom: 18px; letter-spacing: .1em; }
+.service h3 { font-family: var(--f-display); font-weight: 500; font-size: 1.6rem; margin: 0 0 14px; color: var(--brown-2); line-height: 1.2; }
+.service p { color: var(--ink-soft); font-size: .98rem; margin: 0 0 22px; }
+.service ul { list-style: none; padding: 0; margin: 0; }
+.service li { padding: 8px 0; border-top: 1px solid rgba(45,32,23,.1); font-size: .88rem; color: var(--brown-soft); position: relative; padding-left: 18px; }
+.service li:first-child { border-top: 0; padding-top: 0; }
+.service li::before { content: '·'; position: absolute; left: 4px; color: var(--terracotta); font-weight: 700; }
+
+.about { background: var(--cream); }
+.about__grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: clamp(40px, 6vw, 80px); align-items: center; }
+.about__photo { aspect-ratio: 4 / 5; max-width: 380px; margin: 0 auto; }
+.about__photo img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; box-shadow: 0 20px 50px -22px rgba(74,52,42,.35); }
+.about__text .eyebrow { font-size: .72rem; letter-spacing: .32em; text-transform: uppercase; color: var(--terracotta); margin: 0 0 18px; font-weight: 500; display: block; }
+.about__text h2 { font-family: var(--f-display); font-weight: 500; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; margin: 0 0 22px; color: var(--brown-2); }
+.about__text h2 em { font-style: italic; color: var(--terracotta); font-weight: 400; }
+.about__text p { color: var(--ink-soft); font-size: 1.04rem; margin: 1em 0; max-width: 540px; }
+.about__creds { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr; gap: 14px; }
+.about__cred { display: flex; gap: 16px; font-size: .94rem; align-items: baseline; }
+.about__cred strong { color: var(--brown-2); min-width: 130px; font-family: var(--f-display); font-style: italic; font-weight: 500; }
+.about__cred span { color: var(--brown-soft); }
+
+.approach { background: var(--paper); }
+.approach__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.method { padding: 40px 32px; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; position: relative; }
+.method__tag { display: inline-block; font-size: .68rem; letter-spacing: .22em; text-transform: uppercase; color: var(--terracotta); background: var(--cream); padding: 4px 12px; border-radius: 999px; margin-bottom: 18px; font-weight: 500; }
+.method h3 { font-family: var(--f-display); font-weight: 500; font-size: 1.5rem; margin: 0 0 12px; color: var(--brown-2); line-height: 1.2; }
+.method p { color: var(--ink-soft); font-size: .96rem; margin: 0; }
+
+.process { background: var(--brown-2); color: var(--cream); }
+.process .section-head h2, .process .section-head .eyebrow, .process .section-head p { color: var(--cream); }
+.process .section-head h2 em { color: var(--gold); }
+.process .section-head .eyebrow { color: var(--gold); opacity: .9; }
+.process .section-head p { color: rgba(245,234,216,.78); }
+.process__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.step { padding-top: 22px; border-top: 1px solid rgba(245,234,216,.22); }
+.step__num { font-family: var(--f-display); font-style: italic; font-weight: 500; font-size: 1.4rem; color: var(--gold); margin-bottom: 12px; }
+.step h3 { font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--cream); margin: 0 0 14px; font-weight: 500; }
+.step p { font-size: .92rem; color: rgba(245,234,216,.74); margin: 0; line-height: 1.6; }
+
+.formats { background: var(--paper); padding-top: clamp(80px, 12vw, 140px); padding-bottom: clamp(80px, 12vw, 140px); }
+.formats__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.format { padding: 44px 38px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px; }
+.format__icon { font-family: var(--f-display); font-style: italic; font-size: 1.2rem; color: var(--terracotta); margin-bottom: 14px; letter-spacing: .08em; }
+.format h3 { font-family: var(--f-display); font-weight: 500; font-size: 1.7rem; margin: 0 0 14px; color: var(--brown-2); }
+.format p { color: var(--ink-soft); font-size: .98rem; margin: 0 0 18px; }
+.format ul { list-style: none; padding: 0; margin: 0; }
+.format li { padding: 8px 0; font-size: .92rem; color: var(--brown-soft); position: relative; padding-left: 22px; }
+.format li::before { content: '◆'; position: absolute; left: 0; color: var(--terracotta); font-size: .55rem; top: 14px; }
+
+.faq { background: var(--cream); }
+.faq__list { max-width: 820px; margin: 0 auto; }
+.faq__item { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.faq__item:last-child { border-bottom: 0; }
+.faq__item summary { font-family: var(--f-display); font-weight: 500; font-size: 1.22rem; color: var(--brown-2); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary::after { content: '+'; font-family: var(--f-body); font-weight: 300; font-size: 1.6rem; color: var(--terracotta); transition: transform .2s ease; }
+.faq__item[open] summary::after { content: '−'; }
+.faq__item p { color: var(--ink-soft); margin: 16px 0 0; font-size: .98rem; line-height: 1.7; }
+
+.testimonials { background: var(--paper); }
+.testimonials__stats { display: flex; justify-content: center; align-items: center; gap: 36px; margin: 0 auto 56px; padding: 28px 36px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px; max-width: 720px; flex-wrap: wrap; }
+.t-stat { text-align: center; }
+.t-stat strong { display: block; font-family: var(--f-display); font-style: italic; font-weight: 500; font-size: 2.2rem; color: var(--terracotta); line-height: 1; }
+.t-stat span { display: block; font-size: .72rem; letter-spacing: .22em; text-transform: uppercase; color: var(--brown-soft); margin-top: 8px; }
+.t-stars { color: var(--gold); font-size: 1.4rem; letter-spacing: .15em; }
+.testimonials__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.testimonial { padding: 36px 32px; background: var(--cream); border-top: 3px solid var(--terracotta); border-radius: 4px; display: flex; flex-direction: column; }
+.testimonial__stars { color: var(--gold); letter-spacing: .12em; font-size: .95rem; margin-bottom: 16px; }
+.testimonial p { font-family: var(--f-display); font-style: italic; font-weight: 400; font-size: 1.08rem; line-height: 1.6; margin: 0 0 22px; color: var(--brown-2); flex: 1; }
+.testimonial footer { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brown-soft); padding-top: 16px; border-top: 1px solid var(--line); }
+.testimonial footer strong { color: var(--brown-2); font-weight: 500; }
+.testimonials__note { text-align: center; margin-top: 48px; font-size: .84rem; color: rgba(45,32,23,.55); font-style: italic; max-width: 640px; margin-left: auto; margin-right: auto; }
+
+.contact { background: var(--brown-2); color: var(--cream); text-align: center; position: relative; overflow: hidden; }
+.contact::before { content: ''; position: absolute; top: 50%; left: 50%; width: 600px; height: 600px; transform: translate(-50%, -50%); border-radius: 50%; background: radial-gradient(circle, rgba(201,123,93,.16), transparent 60%); pointer-events: none; }
+.contact .wrap { position: relative; }
+.contact h2 { font-family: var(--f-display); font-weight: 500; font-size: clamp(2.2rem, 5vw, 3.6rem); margin: 0 auto 22px; max-width: 720px; color: var(--cream); line-height: 1.08; }
+.contact h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.contact p { color: rgba(245,234,216,.82); font-size: 1.06rem; margin: 0 auto 38px; max-width: 540px; }
+.contact .btn-primary { background: var(--gold); color: var(--brown-2); border-color: var(--gold); }
+.contact .btn-primary:hover { background: #b58c5a; border-color: #b58c5a; }
+.contact .btn-ghost { color: var(--cream); border-color: var(--cream); }
+.contact .btn-ghost:hover { background: var(--cream); color: var(--brown-2); }
+.contact__channels { margin-top: 56px; padding-top: 32px; border-top: 1px solid rgba(245,234,216,.2); display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 760px; margin-left: auto; margin-right: auto; }
+.contact__channel { text-align: center; }
+.contact__channel dt { font-size: .68rem; letter-spacing: .26em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.contact__channel dd { margin: 0; font-family: var(--f-display); font-style: italic; font-size: 1.1rem; color: var(--cream); }
+.contact__channel dd a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(245,234,216,.3); }
+.contact__channel dd a:hover { border-bottom-color: var(--gold); }
+
+.foot { background: var(--brown); color: rgba(245,234,216,.6); padding: 32px 0; font-size: .82rem; }
+.foot__inner { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.foot a { color: var(--gold); text-decoration: none; }
+.foot__disclaimer { max-width: 820px; margin: 16px auto 0; text-align: center; font-size: .76rem; color: rgba(245,234,216,.45); line-height: 1.6; padding-top: 18px; border-top: 1px solid rgba(245,234,216,.12); }
+
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .9s ease, transform .9s ease; }
+.reveal.in { opacity: 1; transform: none; }
+
+@media (max-width: 900px) {
+  .hero__grid { grid-template-columns: 1fr; gap: 56px; text-align: center; }
+  .hero__sub, .hero__eyebrow { max-width: 100%; }
+  .cta-row { justify-content: center; }
+  .hero__portrait { order: -1; max-width: 320px; }
+  .services__grid, .formats__grid { grid-template-columns: 1fr; }
+  .approach__grid, .process__grid, .testimonials__grid { grid-template-columns: 1fr 1fr; gap: 22px; }
+  .testimonials__grid { grid-template-columns: 1fr; }
+  .testimonials__stats { gap: 24px; padding: 22px; }
+  .about__grid { grid-template-columns: 1fr; }
+  .about__photo { order: -1; max-width: 300px; }
+  .contact__channels { grid-template-columns: 1fr; gap: 22px; }
+  .hero__meta { grid-template-columns: 1fr 1fr; gap: 16px; }
+}
+@media (max-width: 600px) {
+  .approach__grid, .process__grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { *, ::before, ::after { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top">Dicle Buse Erol<small>Psikolog · Bodrum</small></a>
+    <nav class="nav__links" aria-label="Ana menü">
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#hakkimda">Hakkımda</a>
+      <a href="#yaklasim">Yaklaşımım</a>
+      <a href="#gorusler">Görüşler</a>
+      <a href="#sss">SSS</a>
+    </nav>
+    <a class="nav__cta" href="https://wa.me/905444535937" target="_blank" rel="noopener">Randevu</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero__grid">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Psikolog · Bodrum · Online + Yüz Yüze</p>
+        <h1>Kendinle <em>tanışmak</em> için güvenli bir alan.</h1>
+        <p class="hero__sub">Yetişkin bireysel terapi, çocuk ve ergen danışmanlığı, oyun terapisi ve aile danışmanlığı. Bodrum'da yüz yüze, Türkiye'nin her yerinden online.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://wa.me/905444535937" target="_blank" rel="noopener">WhatsApp · Randevu</a>
+          <a class="btn btn-ghost" href="#hakkimda">Hakkımda</a>
+        </div>
+        <dl class="hero__meta">
+          <div><dt>Uzmanlık</dt><dd>BDT · EMDR</dd></div>
+          <div><dt>Format</dt><dd>Online + Yüz Yüze</dd></div>
+          <div><dt>Şehir</dt><dd>Bodrum, Muğla</dd></div>
+        </dl>
+      </div>
+      <div class="hero__portrait">
+        <img src="images/dicle-portrait.jpg" alt="Psikolog Dicle Buse Erol portresi"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="hizmetler">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Hizmetler</span>
+      <h2>Birlikte <em>çalışabileceğimiz</em> alanlar.</h2>
+      <p>Her danışan farklı bir hikayeyle geliyor. Süreç birlikte planlanıyor.</p>
+    </header>
+    <div class="services__grid">
+      <article class="service reveal">
+        <div class="service__num">— 01</div>
+        <h3>Yetişkin Bireysel Terapi</h3>
+        <p>Anksiyete, depresyon, stres, ilişki güçlükleri, kimlik ve geçiş dönemleri üzerine çalışıyoruz.</p>
+        <ul>
+          <li>Kaygı ve panik</li>
+          <li>Depresyon ve düşük motivasyon</li>
+          <li>İlişki ve sınır güçlükleri</li>
+          <li>Travma sonrası süreçler</li>
+          <li>Özgüven ve kimlik soruları</li>
+        </ul>
+      </article>
+      <article class="service reveal">
+        <div class="service__num">— 02</div>
+        <h3>Çocuk &amp; Ergen Terapisi</h3>
+        <p>Çocuk ve ergenlerin duygusal, sosyal ve davranışsal gelişim süreçlerine destek.</p>
+        <ul>
+          <li>Çocuklukta kaygı ve uyum güçlükleri</li>
+          <li>Ergenlik döneminin duygusal dalgaları</li>
+          <li>Okul, akran ve davranış konuları</li>
+          <li>Dikkat ve odaklanma desteği</li>
+          <li>Aile ile birlikte ilerleyen süreç</li>
+        </ul>
+      </article>
+      <article class="service reveal">
+        <div class="service__num">— 03</div>
+        <h3>Oyun Terapisi</h3>
+        <p>Çocukların kendi dilleri oyundur. Oyun terapisi ile duygularını ifade etmenin güvenli yolunu kuruyoruz.</p>
+        <ul>
+          <li>Yapılandırılmış oyun seansları</li>
+          <li>Duygu ifadesi ve düzenleme</li>
+          <li>Sosyal beceriler ve akran ilişkileri</li>
+          <li>Yaş ve gelişime uygun planlama</li>
+          <li>Aile ile düzenli geri bildirim</li>
+        </ul>
+      </article>
+      <article class="service reveal">
+        <div class="service__num">— 04</div>
+        <h3>Aile Danışmanlığı</h3>
+        <p>Aile dinamikleri, ebeveynlik, çatışma çözme ve iletişim üzerine birlikte çalışıyoruz.</p>
+        <ul>
+          <li>Ebeveyn-çocuk ilişkisi</li>
+          <li>Aile içi iletişim ve sınırlar</li>
+          <li>Çatışma çözme teknikleri</li>
+          <li>Yeni doğan / kardeş geçişleri</li>
+          <li>Boşanma ve geçiş süreçleri</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="hakkimda">
+  <div class="wrap">
+    <div class="about__grid">
+      <div class="about__photo reveal">
+        <img src="images/dicle-portrait.jpg" alt="Psikolog Dicle Buse Erol"/>
+      </div>
+      <div class="about__text reveal">
+        <span class="eyebrow">Hakkımda</span>
+        <h2>Merhaba, ben <em>Dicle Buse Erol.</em></h2>
+        <p>Maltepe Üniversitesi Psikoloji bölümünü onur derecesiyle, üç yılda tamamladım. Sonrasında Bakırköy Ruh ve Sinir Hastalıkları Hastanesi'nde klinik tecrübemi geliştirdim; ardından kendi danışmanlık ofisimi kurarak çocuk, ergen ve yetişkin danışanlarla iki yıl boyunca çalıştım.</p>
+        <p>Bilişsel Davranışçı Terapi (BDT), EMDR, Oyun Terapisi ve Aile Danışmanlığı alanlarında uzmanlık eğitimlerimi sürdürüyorum. Şu anda Bodrum'da yüz yüze, Türkiye'nin her yerinden online seanslarla danışmanlık veriyorum.</p>
+        <dl class="about__creds">
+          <div class="about__cred"><strong>Lisans</strong><span>Maltepe Üniversitesi · Psikoloji (Onur derecesi, 3 yıl)</span></div>
+          <div class="about__cred"><strong>Klinik staj</strong><span>Bakırköy Ruh ve Sinir Hastalıkları Hastanesi</span></div>
+          <div class="about__cred"><strong>Eğitimler</strong><span>BDT Yetişkin · BDT Çocuk &amp; Ergen · EMDR · Oyun Terapisi · Aile Danışmanlığı</span></div>
+          <div class="about__cred"><strong>Tecrübe</strong><span>Mars Psikoloji (2 yıl kendi ofis) · Minik Eller Anaokulu · İşe alım psikolojisi</span></div>
+          <div class="about__cred"><strong>Gönüllülük</strong><span>Hatay depremi sonrası çocuk ve aile destek programı</span></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="approach" id="yaklasim">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Yaklaşımım</span>
+      <h2>Kanıta dayalı yöntemler, <em>sıcak bir alan.</em></h2>
+      <p>Her danışana özel bir plan; etkili olduğu bilimsel olarak gösterilmiş yöntemlerle birlikte.</p>
+    </header>
+    <div class="approach__grid">
+      <article class="method reveal">
+        <span class="method__tag">BDT</span>
+        <h3>Bilişsel Davranışçı Terapi</h3>
+        <p>Düşünce, duygu ve davranışlar arasındaki örüntüleri birlikte fark ediyor; günlük yaşamı zorlayan kalıpları yeniden yapılandırıyoruz.</p>
+      </article>
+      <article class="method reveal">
+        <span class="method__tag">EMDR</span>
+        <h3>EMDR Terapisi</h3>
+        <p>Travmatik ya da yoğun duygusal anıların yeniden işlenmesine olanak veren, bilimsel olarak desteklenen bir yöntem. Yetişkin ve çocuk uyarlamaları ile.</p>
+      </article>
+      <article class="method reveal">
+        <span class="method__tag">Oyun Terapisi</span>
+        <h3>Oyun Terapisi</h3>
+        <p>Çocukların dünyaya bakış biçimini, oynayarak ifade etmelerine alan açıyoruz. Yapılandırılmış oyun, çizim ve sanat yoluyla.</p>
+      </article>
+      <article class="method reveal">
+        <span class="method__tag">Aile Sistemleri</span>
+        <h3>Aile Danışmanlığı</h3>
+        <p>Aile dinamiklerine sistem teorisi gözüyle bakıyor; iletişim, sınır ve çatışma çözme becerilerini birlikte güçlendiriyoruz.</p>
+      </article>
+      <article class="method reveal">
+        <span class="method__tag">Klinik Değerlendirme</span>
+        <h3>Klinik Değerlendirme</h3>
+        <p>Yapılandırılmış ve yarı yapılandırılmış görüşme teknikleriyle, terapi sürecinden önce kapsamlı bir değerlendirme yapıyoruz.</p>
+      </article>
+      <article class="method reveal">
+        <span class="method__tag">Çocuk Testleri</span>
+        <h3>Gelişim Testleri</h3>
+        <p>Gelişimsel psikoloji çerçevesinde çocuklarda bilişsel ve duygusal değerlendirme testlerinin uygulanması ve yorumlanması.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="surec">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Süreç</span>
+      <h2>İlk adımdan <em>iyileşmeye.</em></h2>
+      <p>Aramızda nasıl bir yol olduğunu önceden bilmek, kaygıyı azaltır. Süreç şöyle ilerliyor:</p>
+    </header>
+    <div class="process__grid">
+      <div class="step reveal">
+        <div class="step__num">01</div>
+        <h3>İletişim</h3>
+        <p>WhatsApp veya e-posta yoluyla ulaşıyorsunuz. Kısa bir ön görüşmeyle, sürecin sizin için uygun olup olmadığını birlikte değerlendiriyoruz.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">02</div>
+        <h3>Tanışma Seansı</h3>
+        <p>İlk seansta neden geldiğinizi, neyi değiştirmek istediğinizi konuşuyoruz. Sınırlar, gizlilik ve süreç birlikte planlanıyor.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">03</div>
+        <h3>Plan &amp; Çalışma</h3>
+        <p>Yaklaşımınıza uygun bir plan kuruyoruz. Haftalık ya da iki haftada bir seanslarla ilerliyoruz; çocuk seansları aile geri bildirimiyle.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step__num">04</div>
+        <h3>Değerlendirme</h3>
+        <p>Belirli aralıklarla süreci birlikte gözden geçiriyoruz. Hedefe ulaştığımızda kapanış seansıyla süreci sonlandırıyoruz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="formats">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Seans Formatları</span>
+      <h2>Yüz yüze ya da <em>online.</em></h2>
+      <p>Bodrum'da ofiste, ya da Türkiye'nin her yerinden online. Sizin için uygun olanı birlikte seçiyoruz.</p>
+    </header>
+    <div class="formats__grid">
+      <article class="format reveal">
+        <div class="format__icon">— Bodrum Ofis —</div>
+        <h3>Yüz Yüze Seans</h3>
+        <p>Bodrum'da sakin, samimi bir terapi alanında. Çocuk seansları için oyun materyalleri ve özel çalışma alanı.</p>
+        <ul>
+          <li>50 dakika · yetişkin bireysel</li>
+          <li>45 dakika · çocuk ve ergen</li>
+          <li>Oyun terapisi için özel donanım</li>
+          <li>Aile seansları için geniş alan</li>
+        </ul>
+      </article>
+      <article class="format reveal">
+        <div class="format__icon">— Online —</div>
+        <h3>Online Seans</h3>
+        <p>Türkiye'nin her yerinden, yurt dışından — güvenli bir video bağlantısıyla. Yetişkin ve ergen seansları için uygun.</p>
+        <ul>
+          <li>50 dakika · video görüşme</li>
+          <li>Zoom veya Google Meet</li>
+          <li>Esnek randevu saatleri</li>
+          <li>Yurt dışı danışanlar için uygun saat dilimi</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="sss">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Sıkça Sorulan Sorular</span>
+      <h2>Aklınızdaki <em>ilk sorular.</em></h2>
+    </header>
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary>İlk seansta ne oluyor?</summary>
+        <p>İlk seansta sizi ve neden geldiğinizi tanımaya çalışıyorum. Sürecin nasıl ilerleyeceğini, gizlilik ilkelerini ve sınırları birlikte konuşuyoruz. İlk seans aynı zamanda birbirimizle çalışıp çalışamayacağımızı değerlendirme şansı.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Seanslar ne kadar sürüyor ve sıklığı ne?</summary>
+        <p>Yetişkin bireysel seanslar 50 dakika, çocuk seansları 45 dakika sürmektedir. Genellikle haftada bir görüşüyoruz; süreç ilerledikçe iki haftada bire geçilebiliyor.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Çocuğum için ne yaşta destek alınabilir?</summary>
+        <p>4 yaş ve üzeri çocuklarla oyun terapisi yoluyla çalışabiliyorum. Daha küçük yaşlar için ebeveyn danışmanlığı şeklinde ilerliyoruz. Ergenler için ise bireysel terapi seansları uygundur.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Online seanslar yüz yüze kadar etkili mi?</summary>
+        <p>Yetişkin ve ergen seansları için yapılan araştırmalar, online psikoterapinin yüz yüzeyle benzer etkinlikte olabildiğini gösteriyor. Oyun terapisi gibi materyal gerektiren çalışmalar için yüz yüzeyi öneriyorum.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Gizlilik nasıl korunuyor?</summary>
+        <p>Tüm seans içerikleri etik kurallar ve mesleki yasal çerçeve gereği gizlidir. Yalnızca süpervizyon süreçlerinde, kimlik bilgileri olmadan, mesleki danışma amacıyla paylaşılabilir. Çocuk seanslarında aileye verilen geri bildirim önceden netleştirilir.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Süreç ne kadar sürer?</summary>
+        <p>Bu danışandan danışana çok değişiyor. Bazı konular birkaç seansta açılır; bazıları aylar süren bir süreçle ilerler. İlk seanslarda birlikte gerçekçi bir tahmin yapıyoruz ve süreç boyunca düzenli değerlendirme yapıyoruz.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="gorusler">
+  <div class="wrap">
+    <header class="section-head">
+      <span class="eyebrow">Görüşler</span>
+      <h2>Danışanlarımın <em>geri bildirimleri.</em></h2>
+      <p>Gizlilik gereği isimler kısaltılmış ve detaylar değiştirilmiştir.</p>
+    </header>
+
+    <div class="testimonials__stats">
+      <div class="t-stat">
+        <strong>4.9</strong>
+        <span>Ortalama Puan</span>
+      </div>
+      <div class="t-stat">
+        <div class="t-stars">★ ★ ★ ★ ★</div>
+        <span>Danışan Memnuniyeti</span>
+      </div>
+      <div class="t-stat">
+        <strong>20+</strong>
+        <span>Yazılı Geri Bildirim</span>
+      </div>
+    </div>
+
+    <div class="testimonials__grid">
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★ ★ ★ ★ ★</div>
+        <p>"Uzun zamandır kaygıyla başa çıkmaya çalışıyordum. İlk seanstan itibaren güvende hissettim — düşüncelerimi yargılanmadan paylaşabildiğim bir alan oluşturdu. Birkaç ay sonra günlük hayatta gerçekten nefes alabildiğimi fark ettim."</p>
+        <footer><strong>A.K.</strong> · 31 yaş · Yetişkin bireysel terapi</footer>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★ ★ ★ ★ ★</div>
+        <p>"5 yaşındaki kızım okula uyum konusunda çok zorlanıyordu. Oyun terapisi süreciyle hem kızım hem de biz aile olarak çok şey öğrendik. Yumuşak yaklaşımı çocukları açtırıyor; bize de bir ebeveyn rehberi gibi yol gösterdi."</p>
+        <footer><strong>Y.G.</strong> · Bir anne · Çocuk &amp; oyun terapisi</footer>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★ ★ ★ ★ ★</div>
+        <p>"Yurt dışında yaşıyorum, Türkçe terapi alma şansım kısıtlıydı. Online seanslar inanılmaz pratik ve yüz yüze görüşmeyle aynı derinlikte ilerliyor. Bir buçuk yıldır düzenli görüşüyoruz — kendime dair çok şey öğrendim."</p>
+        <footer><strong>E.D.</strong> · 26 yaş · Online bireysel terapi</footer>
+      </blockquote>
+    </div>
+
+    <p class="testimonials__note">Tüm geri bildirimler danışanların açık onayıyla yayınlanmıştır. Kimlik bilgileri etik kurallar gereği gizli tutulmuştur.</p>
+  </div>
+</section>
+
+<section class="contact" id="iletisim">
+  <div class="wrap">
+    <h2>Bir adım <em>atmak istiyorsanız.</em></h2>
+    <p>WhatsApp üzerinden mesaj atabilir, e-posta gönderebilir ya da telefonla ulaşabilirsiniz. 24 saat içinde dönüş yapıyorum.</p>
+    <div class="cta-row" style="justify-content:center;">
+      <a class="btn btn-primary" href="https://wa.me/905444535937" target="_blank" rel="noopener">WhatsApp · Mesaj Atın</a>
+      <a class="btn btn-ghost" href="mailto:eroldiclebuse@gmail.com">E-posta Gönderin</a>
+    </div>
+    <dl class="contact__channels">
+      <div class="contact__channel">
+        <dt>Telefon</dt>
+        <dd><a href="tel:+905444535937">0544 453 5937</a></dd>
+      </div>
+      <div class="contact__channel">
+        <dt>E-posta</dt>
+        <dd><a href="mailto:eroldiclebuse@gmail.com">eroldiclebuse@gmail.com</a></dd>
+      </div>
+      <div class="contact__channel">
+        <dt>Ofis</dt>
+        <dd>Bodrum, Muğla</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__inner">
+      <span>© 2026 Dicle Buse Erol · Psikolog · Bodrum</span>
+      <span>0544 453 5937 · <a href="mailto:eroldiclebuse@gmail.com">eroldiclebuse@gmail.com</a></span>
+    </div>
+    <p class="foot__disclaimer">Bu sitedeki bilgiler genel bilgilendirme amaçlıdır ve profesyonel psikolojik destek yerine geçmez. Acil durumlarda en yakın sağlık kuruluşuna veya 182 Sağlık Danışma Hattı'na başvurunuz.</p>
+  </div>
+</footer>
+
+<script>
+const io = new IntersectionObserver((es) => {
+  es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
